@@ -1,6 +1,6 @@
 <template>
     <div style="flex:1">
-        <study></study>
+        <studyGarden></studyGarden>
     </div>
 </template>
 
@@ -8,13 +8,13 @@
 <style lang="scss" src="bui-weex/src/css/buiweex.scss"></style>
 
 <script>
-    import study from "./study.vue";
+    import studyGarden from "./studyGarden.vue";
     module.exports = {
         data () {
             return {}
         },
         components: {
-          study
+          studyGarden
         }
     }
 </script>
